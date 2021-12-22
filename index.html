@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header container">
+  <nav class="nav">
+    <img src="images/logo.svg" alt="logo" class="nav-logo">
+    <div class="menu-wrapper">
+      <img src="images/close.svg" alt="close" class="close">
+      <ul class="menu">
+        <li><a href="" class="about-link">О продукте</a></li>
+        <li><a href="" class="compound-link">Состав</a></li>
+        <li><a href="" class="feedback-link">Отзывы</a></li>
+        <li><a href="" class="recommendations-link">Рекомендации врачей</a></li>
+        <li><a href="" class="buy-link">Купить</a></li>
+      </ul>
+
+    </div>
+    <img src="images/burger-menu.svg" alt="menu" class="burger-menu">
+  </nav>
+</header>
+<section class="header__content">
+  <div class="video-wrapper">
+    <video id="Video" class="video" width="100%" height="auto" loop="loop" autoplay="autoplay" preload="auto" muted>
+      <source src="video/matrix.mp4">
+    </video>
+    <h1 class="heading-text">LevelUp</h1>
+    <div class="product-description container">
+      <img src="images/prod.png" alt="" class="header-product">
+      <ol class="specifications">
+        <li>Lorem ipsum dolor;</li>
+        <li>Lorem ipsum dolor sit amet;</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+      </ol>
+    </div>
+    <button class="primary-btn">Заказать</button>
+  </div>
+
+</section>
+<section class="compound container">
+  <h2 class="heading-text">Состав продукта</h2>
+  <div class="circles-blocks">
+    <div class="left-circles-block">
+
+      <div class="content-circle">
+        <img src="images/avocado.png" alt="" loading=lazy>
+        <p>Авокадо</p>
+      </div>
+
+      <div class="content-circle">
+        <img src="images/banana.png" alt="" loading=lazy>
+        <p>Банан</p>
+      </div>
+
+      <div class="content-circle">
+        <img src="images/pomegranate.png" alt="" loading=lazy>
+        <p>Гранат</p>
+      </div>
+    </div>
+    <div class="product-block">
+      <div class="left-block-lines">
+        <div class="line avocado-line"></div>
+        <div class="line banana-line"></div>
+        <div class="line pomegranate-line"></div>
+      </div>
+      <img src="images/prod.png" alt="" class="compound__product" loading=lazy>
+      <div class="right-block-lines">
+        <div class="line coconut-line"></div>
+        <div class="line lime-line"></div>
+        <div class="line lemon-line"></div>
+      </div>
+    </div>
+    <div class="right-circles-block">
+
+      <div class="content-circle">
+        <img src="images/coconut.png" alt="" loading=lazy>
+        <p>Кокос</p>
+      </div>
+
+      <div class="content-circle">
+        <img src="images/lime.png" alt="" loading=lazy>
+        <p>Лайм</p>
+      </div>
+
+      <div class="content-circle">
+        <img src="images/lemon.png" alt="" loading=lazy>
+        <p>Лимон</p>
+      </div>
+
+    </div>
+  </div>
+  <button class="primary-btn product-block-btn">Заказать</button>
+</section>
+<section class="feedback container">
+  <h2 class="heading-text">Отзывы</h2>
+  <div class="slider">
+    <button class="slider-btn btn-left"></button>
+    <button class="slider-btn btn-right"></button>
+    <div class="slider-line">
+
+      <div class="slider-item">
+        <img src="images/thinking_man.png" alt="" class="slider-img" loading=lazy>
+        <p class="name">Николай, 26 лет</p>
+        <div class="comment-wrapper">
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ducimus in ipsam iusto
+            laborum nobis quas quidem
+            quisquam similique tenetur.</p>
+        </div>
+      </div>
+
+      <div class="slider-item">
+        <img src="images/thinking_man_2.png" alt="" class="slider-img" loading=lazy>
+        <p class="name">Алексей, 17 лет</p>
+        <div class="comment-wrapper">
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ducimus in ipsam iusto
+            laborum nobis quas quidem
+            quisquam similique tenetur.</p>
+        </div>
+      </div>
+
+      <div class="slider-item">
+        <img src="images/thinking_man_3.png" alt="" class="slider-img" loading=lazy>
+        <p class="name">Армен, 65 лет</p>
+        <div class="comment-wrapper">
+          <p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ducimus in ipsam iusto
+            laborum nobis quas quidem
+            quisquam similique tenetur.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="recommendations container">
+  <h3 class="heading-text">Рекомендации врачей</h3>
+  <div class="recommendations__description-block">
+    <img src="images/doctor.png" alt="doctor" class="doctor-img">
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at dolorem enim minus quos,
+      soluta!</p>
+  </div>
+  <ol class="recommendations__specifications">
+    <li>Lorem ipsum dolor;</li>
+    <li>Lorem ipsum dolor;</li>
+    <li>Lorem ipsum dolor.</li>
+  </ol>
+  <button class="primary-btn recommendations__btn">Заказать</button>
+</section>
+<section class="sale-and-form">
+  <h4 class="heading-text">LevelUp</h4>
+  <div class="timer-wrapper">
+    <p class="timer"></p>
+  </div>
+  <div class="sale-and-form__main-content container">
+    <div class="sale">
+      <img src="images/prod.png" alt="product" class="sale__product" loading=lazy>
+      <p class="discount">300$</p>
+      <p class="old-price">1000$</p>
+    </div>
+    <form class="form">
+      <label for="name" class="form-label">Ваше имя:</label>
+      <label for="name" class="name-help help-text">Например: Иван</label>
+      <input type="text" id="name" class="form-input name-input" autocomplete="off">
+      <label for="phone" class="form-label">Ваш номер телефона:</label>
+      <label for="phone" class="phone-help help-text">Например: 8 999 999 99 99</label>
+      <input type="number" id="phone" class="form-input phone-input" autocomplete="off">
+      <button class="primary-btn form-btn">Купить</button>
+    </form>
+  </div>
+</section>
+<footer class="footer container">
+  <img src="images/logo.svg" alt="logo" class="footer__logo" loading=lazy>
+  <ul class="footer__menu">
+    <li><a href="">О продукте</a></li>
+    <li><a href="">Состав</a></li>
+    <li><a href="">Отзывы</a></li>
+    <li><a href="">Рекомендации врачей</a></li>
+    <li><a href="">Купить</a></li>
+  </ul>
+  <p class="copyright">2021 Copyright <a href="">LevelUp®</a>. All rights reserved.</p>
+</footer>
+<script src="slider.js"></script>
+<script src="timer.js"></script>
+<script src="menu.js"></script>
+<script src="input-help.js"></script>
+<script src="scroll.js"></script>
+</body>
+</html>
+
